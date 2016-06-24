@@ -1,0 +1,26 @@
+{
+  "name": "node-slack-weather",
+  "version": "1.0.0",
+  "description": "",
+  "main": "weather.js",
+  "dependencies": {
+    "node-schedule": "^1.1.1",
+    "request": "^2.72.0",
+    "slack-node": "^0.2.0",
+    "weather-gov-graph-parse": "^0.1.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/andrewda/node-slack-weather.git"
+  },
+  "author": "Andrew Dassonville",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andrewda/node-slack-weather/issues"
+  },
+  "homepage": "https://github.com/andrewda/node-slack-weather"
+}
