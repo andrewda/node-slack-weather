@@ -3,7 +3,7 @@ var request = require('request');
 var Slack = require('slack-node');
 var schedule = require('node-schedule');
 
-const MEETING_DAYS = [2, 5, 6];
+const MEETING_DAYS = [2, 5];
 const UPDATE_AT_HOUR = 18;
 
 var slack = new Slack();
